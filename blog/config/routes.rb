@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   get 'welcome/index'
   post 'articles/new' => 'articles#create'
 
